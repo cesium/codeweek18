@@ -1,0 +1,32 @@
+<section id="sponsors" class="section-padding">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ site.data.sponsors.title }}</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">{{ site.data.sponsors.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+
+      {% for sponsor in site.data.sponsors.list %}
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <div class="spnsors-logo">
+          <a href="{{ sponsor.url }}"><img class="img-fluid" src="assets/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.company }}"></a>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% if site.data.sponsors.button %}
+      <div class="col-12 text-center">
+        <a href="mailto:{{ site.data.sponsors.button.mail }}?subject={{ site.data.sponsors.button.subject }}" class="btn btn-common">{{ site.data.sponsors.button.text }}</a>
+      </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+</section>

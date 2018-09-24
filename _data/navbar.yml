@@ -1,0 +1,30 @@
+# ============================================================================ #
+# Navbar
+# ============================================================================ #
+
+- name: Home
+  link: "#header-wrap"
+
+- name: About
+  link: "#about"
+
+- name: Schedules
+  link: "#schedules"
+
+- name: Speakers
+  link: "#team"
+
+- name: Gallery
+  link: "#gallery"
+
+- name: FAQ
+  link: "#faq"
+
+- name: Sponsors
+  link: "#sponsors"
+
+- name: Pricing
+  link: "#pricing"
+
+- name: Contact
+  link: "#google-map-area"

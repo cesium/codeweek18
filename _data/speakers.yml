@@ -1,0 +1,53 @@
+# ============================================================================ #
+# Speakers
+# ============================================================================ #
+
+title: Oradores
+description: texto texto texto
+
+button:
+  text: Become a speaker
+  mail: pedagogico@cesium.di.uminho.pt
+  subject: "[CodeWeek] Interesse em ser orador"
+
+list:
+  - name: Nelson Estevão
+    photo: team-01.jpg
+    role: Dono Disto Tudo
+    company: Google
+    url: estevao.xyz
+    twitter: nelsonmestevao
+    linkedin: nelsonmestevao
+    github: nelsonmestevao
+
+  - name: Nelson Estevão
+    photo: team-01.jpg
+    role: Dono Disto Tudo
+    company: Google
+    url: estevao.xyz
+    twitter: nelsonmestevao
+    github: nelsonmestevao
+
+  - name: Nelson Estevão
+    photo: team-01.jpg
+    role: Dono Disto Tudo
+    company: Google
+    url: estevao.xyz
+    twitter: nelsonmestevao
+    github: nelsonmestevao
+
+  - name: Nelson Estevão
+    photo: team-01.jpg
+    role: Dono Disto Tudo
+    company: Google
+    url: estevao.xyz
+    twitter: nelsonmestevao
+    github: nelsonmestevao
+
+  - name: Nelson Estevão
+    photo: team-01.jpg
+    role: Dono Disto Tudo
+    company: Google
+    url: estevao.xyz
+    twitter: nelsonmestevao
+    github: nelsonmestevao

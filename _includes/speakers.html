@@ -1,0 +1,52 @@
+<section id="team" class="section-padding text-center">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ site.data.speakers.title }}</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">{{ site.data.speakers.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {% for speaker in site.data.speakers.list %}
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
+
+          <div class="team-img">
+            <img class="img-fluid" src="assets/img/speakers/{{ speaker.photo }}" alt="">
+            <div class="team-overlay">
+              <div class="overlay-social-icon text-center">
+                <ul class="social-icons">
+                  {% if speaker.twitter %}
+                  <li><a href="https://twitter.com/{{ speaker.twitter }}"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                  {% endif %}
+                  {% if speaker.linkedin %}
+                  <li><a href="https://linkedin.com/in/{{ speaker.linkedin }}"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  {% endif %}
+                  {% if speaker.github %}
+                  <li><a href="https://github.com/{{ speaker.github }}"><i class="lni-github" aria-hidden="true"></i></a></li>
+                  {% endif %}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-text">
+            <h3><a href="https://{{ speaker.url }}">{{ speaker.name }}</a></h3>
+            <p>{{ speaker.role }}, {{ speaker.company }}</p>
+          </div>
+
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% if site.data.speakers.button %}
+    <a href="mailto:{{ site.data.speakers.button.mail }}?subject={{ site.data.speakers.button.subject }}" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">{{ site.data.speakers.button.text }}</a>
+    {% endif %}
+
+  </div>
+</section>

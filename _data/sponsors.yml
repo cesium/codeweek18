@@ -1,0 +1,28 @@
+# ============================================================================ #
+# Sponsors
+# ============================================================================ #
+
+title: Sponsors
+description: texto texto texto
+
+button:
+  text: Become a sponsor
+  mail: pedagogico@cesium.di.uminho.pt
+  subject: "[CodeWeek] Interesse em patrocínio"
+
+list:
+  - company: Google
+    logo: logo-01.png
+    url: estevao.xyz
+
+  - company: Google
+    logo: logo-02.png
+    url: estevao.xyz
+
+  - company: Google
+    logo: logo-04.png
+    url: estevao.xyz
+
+  - company: Google
+    logo: logo-03.png
+    url: estevao.xyz

@@ -1,0 +1,75 @@
+<section id="schedules" class="schedule section-padding">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedules</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit,
+            sed do eiusmod tempor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
+
+      <div class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
+        <div class="table-responsive">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+          {% for day in site.data.schedule.calendar %}
+            <li class="nav-item">
+              <a class="nav-link" id="{{ day.name }}-tab" data-toggle="tab" href="#{{ day.name }}" role="tab" aria-controls="{{ day.name }}">
+                <div class="item-text">
+                  <h4>{{ day.name }}</h4>
+                  <h5>{{ day.date }}</h5>
+                </div>
+              </a>
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
+        <div class="tab-content" id="myTabContent">
+
+          {% for day in site.data.schedule.calendar %}
+          <div class="tab-pane fade show active" id="{{ day.name }}" role="tabpanel" aria-labelledby="{{ day.name }}-tab">
+            <div id="accordion">
+
+              {% for event in day.events %}
+              <div class="card">
+                <div id="headingThree">
+                  <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    <div class="images-box">
+                      <img class="img-fluid" src="assets/img/schedule/{{ event.photo }} " alt="">
+                    </div>
+                    <span class="time">{{ event.time }}</span>
+                    <h4>{{ event.name }}</h4>
+                    <h5 class="name">{{ event.speaker }}</h5>
+                  </div>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>{{ event.description }}</p>
+                    <div class="location">
+                      <span>Location:</span>
+                      {{ event.location }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+
+            </div>
+          </div>
+          {% endfor %}
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>

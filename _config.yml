@@ -1,0 +1,56 @@
+# Site Settings
+locale          : "pt-PT"
+title           : "CodeWeek"
+title_separator : "•"
+description     : "Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis nostrud ncididunt."
+logo            : logo.png
+url             : "https://codeweek.cesium.di.uminho.pt"
+baseurl         :
+
+# Google Analytics
+analytics:
+
+# Social
+email        :
+facebook     :
+github       :
+gitlab       :
+google_plus  :
+instagram    :
+linkedin     :
+twitter      :
+youtube      :
+
+
+# Reading Files
+encoding: "utf-8"
+include:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+  - CHANGELOG.md
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

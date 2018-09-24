@@ -1,0 +1,115 @@
+# ============================================================================ #
+# Schedule
+# ============================================================================ #
+
+calendar:
+  - name: Fim de Semana
+    date: 13 e 14 de Outubro
+    events:
+      - name: exemplo
+        time: 12h-23h
+        photo:
+        location: Por aí
+
+      - name: texto
+        time: texto
+        photo:
+        location: texto
+
+      - name: texto
+        time: texto
+        photo:
+        location: texto
+
+      - name: texto
+        time: texto
+        photo:
+        location: texto
+
+  - name: Segunda-feira
+    date: 15 de Outubro
+    events:
+      - name: texto
+        time: texto
+        speaker: texto
+        photo:
+        location: texto
+
+      - name: texto
+        time: texto
+        speaker: texto
+        photo:
+        location: texto
+
+  - name: Terça-feira
+    date: 16 de Outubro
+    events:
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+  - name: Quarta-feira
+    date: 17 de Outubro
+    events:
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+  - name: Quinta-feira
+    date: 18 de Outubro
+    events:
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+  - name: Sexta-feira
+    date: 19 de Outubro
+    events:
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+      - name: texto
+        time: texto
+        speaker: texto
+        photo: texto
+        location: texto
+
+  - name: Sábado
+    date: 20 de Outubro
+    events:
+      - name: CoderDojo Braga
+        time: 10h00
+        speaker:
+        photo: coderdojo.png
+        description: |
+          O Coderdojo Braga é um movimento aberto e sem fins lucrativos
+          para ensinar jovens dos 7 aos 17 a programar. Caso tenhas interesse
+          em informática, aparece ou partilha!
+        location: GNRation
