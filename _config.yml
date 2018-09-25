@@ -21,6 +21,9 @@ linkedin     :
 twitter      : "cesiuminho"
 youtube      :
 
+# Torneio
+torneio-link : "http://www.cesium.di.uminho.pt/activities"
+
 
 # Reading Files
 encoding: "utf-8"
