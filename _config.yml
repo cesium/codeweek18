@@ -11,14 +11,14 @@ baseurl         :
 analytics:
 
 # Social
-email        :
-facebook     :
-github       :
-gitlab       :
-google_plus  :
-instagram    :
+email        : "cesium@di.uminho.pt"
+facebook     : "cesiuminho"
+github       : "cesium"
+gitlab       : 
+google_plus  : 
+instagram    : "cesiuminho"
 linkedin     :
-twitter      :
+twitter      : "cesiuminho"
 youtube      :
 
 

@@ -17,7 +17,7 @@
 		color: #fff;
 		line-height: 20px;
 		margin: 0;
-		padding-right: 50px;
+		padding-left: 20px;
 	}
 	ul{
 		li{
@@ -31,6 +31,13 @@
 			}
 		}
 	}
+
+	ul.link{
+	    columns: 2;
+  	    -webkit-columns: 2;
+	    -moz-columns: 2;
+	}
+
 	.footer-social{
 		li{
 			display: inline-block;
@@ -59,11 +66,11 @@
 			.twitter:hover{
 				background: #00aced;
 			}
-			.linkedin:hover{
+			.instagram:hover{
 				background: #fb3958;
 			}
-			.foursqare:hover{
-				background: #25a0ca;
+			.github:hover{
+				background: #2e343d;
 			}
 			.google-plus:hover{
 				background: #d34836;
