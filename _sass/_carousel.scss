@@ -78,16 +78,16 @@
 #main-slide .carousel-control {
     top: 45%;
 }
-#main-slide .carousel-control .lni-chevron-left,
-#main-slide .carousel-control .lni-chevron-right{
+#main-slide .carousel-control .fa-angle-left,
+#main-slide .carousel-control .fa-angle-right{
     position: absolute;
     z-index: 5;
 }
-#main-slide .carousel-control .lni-chevron-left{
+#main-slide .carousel-control .fa-angle-left{
     left: 15px;
 }
 
-#main-slide .carousel-control .lni-chevron-right{
+#main-slide .carousel-control .fa-angle-right{
     right: 15px;
 }
 .carousel-indicators li{
