@@ -10,7 +10,7 @@ calendar:
       - name: Competição de Engenharia do Minho
         tag: cem
         time: 8h30-12h30
-        photo:
+        photo: cem.png
         description: |
           A Competição de Engenharia do Minho é uma maratona de 24 horas onde
           uma equipa multidisciplinar de 5 estudantes de Engenharia
