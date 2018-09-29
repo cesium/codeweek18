@@ -4,108 +4,112 @@
 
 calendar:
   - name: Fim de Semana
+    tag: weekend
     date: 13 e 14 de Outubro
     events:
-      - name: exemplo
-        time: 12h-23h
+      - name: Competição de Engenharia do Minho
+        tag: cem
+        time: 8h30-12h30
         photo:
-        location: Por aí
-
-      - name: texto
-        time: texto
-        photo:
-        location: texto
-
-      - name: texto
-        time: texto
-        photo:
-        location: texto
-
-      - name: texto
-        time: texto
-        photo:
-        location: texto
+        description: |
+          A Competição de Engenharia do Minho é uma maratona de 24 horas onde
+          uma equipa multidisciplinar de 5 estudantes de Engenharia
+          desenvolve um produto ou serviço inovador que dê resposta a um
+          problema atual no funcionamento da Universidade do Minho. Esta
+          solução será no final apresentada a um painel multidisciplinar que
+          irá distinguir equipas vencedoras.
+        location: Complexo Desportivo de Azurém
+        registration:
 
   - name: Segunda-feira
+    tag: monday
     date: 15 de Outubro
     events:
-      - name: texto
-        time: texto
-        speaker: texto
+      - name: Talk de Segurança
+        tag: security
+        time: TBA
+        speaker: Daniel Tinoco & José Resende
         photo:
-        location: texto
+        description:
+        location: CG - Edifício 7 - 1.01 (DI A2)
+        registration:
 
-      - name: texto
-        time: texto
-        speaker: texto
+      - name: Introdução à UNIX Shell
+        tag: shell
+        time: TBA
+        speaker: Eduardo Barbosa & Nelson Estevão
         photo:
-        location: texto
+        description: |
+        location: CG - Edifício 7 - 1.01
+        registration:
 
   - name: Terça-feira
+    tag: tuesday
     date: 16 de Outubro
     events:
       - name: texto
+        tag: coisinha
         time: texto
         speaker: texto
         photo: texto
+        description:
         location: texto
-
-      - name: texto
-        time: texto
-        speaker: texto
-        photo: texto
-        location: texto
+        registration:
 
   - name: Quarta-feira
+    tag: wednesday
     date: 17 de Outubro
     events:
-      - name: texto
-        time: texto
-        speaker: texto
-        photo: texto
-        location: texto
+      - name: Torneio de FIFA 19
+        tag: fifa
+        time: 15h00 - 18h00
+        photo:
+        description: TBA
+        location: GamersAcademy
+        registration:
 
-      - name: texto
-        time: texto
-        speaker: texto
-        photo: texto
+      - name: Celebração do Open Source
+        tag: hackathonners
+        time: TBA
+        speaker: Hackathonners
+        photo:
+        description: TBA
         location: texto
+        registration:
 
   - name: Quinta-feira
+    tag: thursday
     date: 18 de Outubro
     events:
       - name: texto
+        tag: arduino
         time: texto
         speaker: texto
         photo: texto
+        description:
         location: texto
-
-      - name: texto
-        time: texto
-        speaker: texto
-        photo: texto
-        location: texto
+        registration:
 
   - name: Sexta-feira
+    tag: friday
     date: 19 de Outubro
     events:
       - name: texto
+        tag: text
         time: texto
         speaker: texto
         photo: texto
+        description:
         location: texto
-
-      - name: texto
-        time: texto
-        speaker: texto
-        photo: texto
-        location: texto
+        registration:
 
   - name: Sábado
+    tag: saturday
     date: 20 de Outubro
     events:
       - name: CoderDojo Braga
-        time: 10h00
+        tag: coderdojo
+        time: 10h00 - 12h30
         speaker:
         photo: coderdojo.png
         description: |
@@ -113,3 +117,4 @@ calendar:
           para ensinar jovens dos 7 aos 17 a programar. Caso tenhas interesse
           em informática, aparece ou partilha!
         location: GNRation
+        registration: mailto:info@gnration.pt?subject=[CoderDojo Braga] Interesse em participar na sessão de 20 de Outubro

@@ -18,7 +18,7 @@
           <ul class="nav nav-tabs" id="myTab" role="tablist">
           {% for day in site.data.schedule.calendar %}
             <li class="nav-item">
-              <a class="nav-link" id="{{ day.name }}-tab" data-toggle="tab" href="#{{ day.name }}" role="tab" aria-controls="{{ day.name }}">
+              <a class="nav-link" id="{{ day.tag }}-tab" data-toggle="tab" href="#{{ day.tag }}" role="tab" aria-controls="{{ day.tag }}">
                 <div class="item-text">
                   <h4>{{ day.name }}</h4>
                   <h5>{{ day.date }}</h5>
@@ -34,14 +34,14 @@
         <div class="tab-content" id="myTabContent">
 
           {% for day in site.data.schedule.calendar %}
-          <div class="tab-pane fade show active" id="{{ day.name }}" role="tabpanel" aria-labelledby="{{ day.name }}-tab">
+          <div class="tab-pane fade show" id="{{ day.tag }}" role="tabpanel" aria-labelledby="{{ day.tag }}-tab">
             <div id="accordion">
 
               {% for event in day.events %}
               <div class="card">
                 <div id="headingThree">
-                  <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
+                  <div class="collapsed card-header" data-toggle="collapse" data-target="#collapse{{ event.tag }}" aria-expanded="false"
+                    aria-controls="collapse{{ event.tag }}">
                     <div class="images-box">
                       <img class="img-fluid" src="assets/img/schedule/{{ event.photo }} " alt="">
                     </div>
@@ -50,7 +50,7 @@
                     <h5 class="name">{{ event.speaker }}</h5>
                   </div>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div id="collapse{{ event.tag }}" class="collapse" aria-labelledby="heading{{ event.tag }}" data-parent="#accordion">
                   <div class="card-body">
                     <p>{{ event.description }}</p>
                     <div class="location">
