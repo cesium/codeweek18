@@ -35,3 +35,9 @@ local machine for development and testing purposes.
 2. `jekyll serve`
 3. Navigate to <http://localhost:4000>
 
+## Contributing
+
+Please read [CONTRIBUTING](CONTRIBUTING.md) and
+[CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details on our code of conduct and
+the process for submitting pull requests to us.
+
