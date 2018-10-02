@@ -1,10 +1,9 @@
-<!-- Ticket Pricing Area Start -->
 <section id="pricing" class="section-padding">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="section-title-header text-center">
-          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Torneio</h1>
+          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ site.data.tournament.name }}</h1>
         </div>
       </div>
     </div>
@@ -15,24 +14,24 @@
             <i class="fas fa-gamepad"></i>
           </div>
           <div class="colmun-title">
-            <h5>FIFA 19</h5>
+            <h5>{{ site.data.tournament.name }}</h5>
           </div>
           <div class="price">
-            <p>Quarta-feira, 17 de Outubro</p>
-            <p><i class="far fa-clock"></i> 15h00 - 18h00</p>
-            <p><i class="fas fa-map-marker-alt"></i> GamersAcademy</p>
+            <p>{{ site.data.tournament.date }}</p>
+            <p><i class="far fa-clock"></i> {{ site.data.tournament.time }}</p>
+            <p><i class="fas fa-map-marker-alt"></i> {{ site.data.tournament.location }}</p>
           </div>
           <div class="prizes">
             <ul>
               <li><i class="fas fa-trophy"></i></i><span class="text">Garrafa de Jeropiga</span></li>
               <li><i class="fas fa-award"></i></i><span class="text">Camisola do CeSIUM</span></li>
             </ul>
-            <p>Consulta o regulamento <a>aqui</a>.</p>
+            <p>Consulta o regulamento <a href="assets/docs/{{ site.data.tournament.rules }}">aqui</a>.</p>
           </div>
-          <a href={{site.torneio-link}} class="btn btn-common">PARTICIPAR</a>
+          <a href={{ site.data.tournament.registrations }} class="btn btn-common">PARTICIPAR</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Ticket Pricing Area End -->
+
