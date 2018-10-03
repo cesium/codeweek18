@@ -200,7 +200,8 @@
 
 		scrollTo: function(target, callback) {
 			var offset = $(target).offset().top;
-
+			//reduce a bit of the offset so the navbar doesn't cover the content
+			offset -= 60;
 			$('html, body').animate({
 				scrollTop: offset
 			}, this.config.scrollSpeed, this.config.easing, callback);
