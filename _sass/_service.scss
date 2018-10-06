@@ -39,7 +39,7 @@
 		    font-size: 48px;
 		    text-align: center;
 		    margin-bottom: 15px;
-		    color: #212121;
+		    color: white;
 		    border-radius: 0;
 		    transition: all 0.3s ease-in-out 0s;
 		    -moz-transition: all 0.3s ease-in-out 0s;
@@ -54,20 +54,22 @@
 			a{
 				font-size: 20px;
     			letter-spacing: 0.5px;	
-    			font-weight: 400;			
-    			color: #212121;
+    			font-weight: 600;			
+    			color: $light-blue;
 			}
 		}
 	}
 }
 .services-item:hover{
-	background: #f3f3f3;
+	background: transparent;
 }
 .services-item:hover .icon i{
 	background: transparent;
-	color: $preset;
+	color: $white;
 }
 
-
-
+.services-item:hover .services-content h3 a{
+	color: $light-red;
+	text-decoration: none;
+}
 

@@ -42,9 +42,9 @@
   .navbar-brand{
     top: 0px;
   }
-  background: #fff!important;
+  background: $dark-blue!important;
   .navbar-nav .nav-link{
-    color: #212121 !important;
+    color: white !important;
     &:hover{
       color: $preset!important;
     }
@@ -107,7 +107,7 @@
   color: $preset!important;
 }
 .navbar{
-  padding: 0;
+  padding: 0px;
    li.active a.nav-link {
       color: $preset!important;
   }
@@ -197,7 +197,7 @@
   animation-name: fadeInUpMenu;
 }
 .slicknav_btn{
-  border-color: $preset;
+  border-color: $dark-blue;
 }
 .slicknav_menu .slicknav_icon-bar{
   background: $preset;
@@ -211,6 +211,7 @@
 .navbar-toggler{
   display: none;
 }
+
 // Mobile Menu
 .mobile-menu{
   display: none;
@@ -239,15 +240,16 @@
     display:block;
   }
   .slicknav_nav .active a{
-    background: $preset;
+    background: $dark-blue;
     color: #fff;
   }
   .slicknav_nav a:hover, .slicknav_nav .active{
     color: $preset;
-    background: #f5f5f5;
+    background: $dark-blue;
   }
   .slicknav_nav .dropdown li a.active{
-    background: #f5f5f5;
+    background: $dark-blue;
     color: $preset;
   }
 }
+
