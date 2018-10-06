@@ -1,6 +1,6 @@
 /* Pricing Ticket */
 #pricing{
-	background: url(../img/background/bg-pricing.jpg);
+	background: url(../img/background/bg-tournament.jpg);
     background-attachment: fixed;
     overflow: hidden;
     position: relative;
@@ -77,7 +77,10 @@
 				    	color: $preset;
 				    }
 		    	}
-		    }
+        }
+        p{
+          color: black;
+        }
 	    }
 	    .btn{
 	    	i{

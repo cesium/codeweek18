@@ -1,6 +1,6 @@
 /* Services Item */
 .services{
-	background: #fff;
+	background: $dark-blue;
 }
 .padding-none{
 	padding: 0;
@@ -53,8 +53,8 @@
 			line-height: 26px;
 			a{
 				font-size: 20px;
-    			letter-spacing: 0.5px;	
-    			font-weight: 600;			
+    			letter-spacing: 0.5px;
+    			font-weight: 600;
     			color: $light-blue;
 			}
 		}

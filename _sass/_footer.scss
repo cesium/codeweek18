@@ -61,16 +61,16 @@
 				}
 			}
 			.facebook:hover{
-				background: #3B5998;
+				background: $facebook-color;
 			}
 			.twitter:hover{
-				background: #00aced;
+				background: $twitter-color;
 			}
 			.instagram:hover{
-				background: #fb3958;
+				background: $instagram-color;
 			}
 			.github:hover{
-				background: #2e343d;
+				background: $github-color;
 			}
 		}
 	}

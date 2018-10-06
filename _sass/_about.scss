@@ -1,4 +1,4 @@
-//About 
+//About
 .about-item{
 	padding: 10px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
@@ -60,7 +60,7 @@
     background: $light-red;
     overflow: hidden;
     position: relative;
-    /* 
+    /*
     &:before{
     	content: '';
     	position: absolute;
@@ -97,7 +97,7 @@
 
 /* Sponsors Area */
 #sponsors{
-	background: #f3f4f3;
+	background: $dark-blue;
 	.spnsors-logo{
 		text-align: center;
 		border-radius: 4px;
