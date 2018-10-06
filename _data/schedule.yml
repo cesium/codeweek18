@@ -4,7 +4,7 @@
 
 calendar:
   - name: Fim de Semana
-    tag: weekend
+    tag: active
     date: 13 e 14 de Outubro
     events:
       - name: Competição de Engenharia do Minho

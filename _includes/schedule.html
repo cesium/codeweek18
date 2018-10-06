@@ -34,7 +34,7 @@
         <div class="tab-content" id="myTabContent">
 
           {% for day in site.data.schedule.calendar %}
-          <div class="tab-pane fade show" id="{{ day.tag }}" role="tabpanel" aria-labelledby="{{ day.tag }}-tab">
+          <div class="tab-pane fade {{ day.tag }} show" id="{{ day.tag }}" role="tabpanel" aria-labelledby="{{ day.tag }}-tab">
             <div id="accordion">
 
               {% for event in day.events %}
