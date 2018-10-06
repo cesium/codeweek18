@@ -9,21 +9,18 @@
       </div>
       <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
         <div class="video">
-          <img class="img-fluid" src="assets/img/about/about.jpg" alt="">
+          {% for picture in site.data.coderdojo.pictures %}
+          <img class="img-fluid coderdojo-braga" src="assets/img/coderdojo/{{ picture }}" alt="">
+          {% endfor %}
         </div>
       </div>
       <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
-        <p class="intro-desc">
-          {{ site.data.coderdojo.description }}
-        </p>
-        <h2 class="intro-title">Check List</h2>
-        <ul class="list-specification">
-          <li><i class="far fa-check-circle"></i> Lorem Ipsum is simply dummy</li>
-          <li><i class="far fa-check-circle"></i> Ipsum passages, and more recently</li>
-          <li><i class="far fa-check-circle"></i> PageMaker including versions</li>
-          <li><i class="far fa-check-circle"></i> Lorem Ipsum is simply dummy</li>
-        </ul>
+          {{ site.data.coderdojo.description | markdownify }}
       </div>
+        <div class="description col-lg-12 wow fadeInRight center" data-wow-delay="0.3s">
+          <h2 class="intro-title">{{ site.data.coderdojo.date }}</h2>
+          <a class="btn btn-common btn-rm" href="{{ site.data.coderdojo.registrations }}">PARTICIPA</a>
+        </div>
     </div>
   </div>
 </section>
