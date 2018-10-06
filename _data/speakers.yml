@@ -6,48 +6,43 @@ title: Oradores
 description: texto texto texto
 
 button:
-  text: Become a speaker
+  text: Seja Orador
   mail: pedagogico@cesium.di.uminho.pt
   subject: "[CodeWeek] Interesse em ser orador"
 
 list:
+  - name: Bruno Cancelinha
+    photo: cientista.jpg
+    role: Vice-Presidente
+    company: CeSIUM
+    url:
+    twitter:
+    linkedin:
+    github: 9thScientist
+
+  - name: Eduardo Barbosa
+    photo: herulume.jpg
+    role: Functional Programming Aficionado
+    company: CeSIUM
+    url: herulu.me
+    twitter: herulume
+    linkedin: herulume
+    github: herulume
+
+  - name: José Resende
+    photo: resende.jpg
+    role: Centro de Apoio ao Open Source
+    company: CeSIUM
+    url: zepedroresende.github.io
+    twitter: Resende_666
+    linkedin: jos%C3%A9-pedro-resende-216b24138/
+    github: ZePedroResende
+
   - name: Nelson Estevão
-    photo: team-01.jpg
-    role: Dono Disto Tudo
-    company: Google
+    photo: estevao.jpg
+    role: Departamento Pedagógico
+    company: CeSIUM
     url: estevao.xyz
     twitter: nelsonmestevao
     linkedin: nelsonmestevao
-    github: nelsonmestevao
-
-  - name: Nelson Estevão
-    photo: team-01.jpg
-    role: Dono Disto Tudo
-    company: Google
-    url: estevao.xyz
-    twitter: nelsonmestevao
-    github: nelsonmestevao
-
-  - name: Nelson Estevão
-    photo: team-01.jpg
-    role: Dono Disto Tudo
-    company: Google
-    url: estevao.xyz
-    twitter: nelsonmestevao
-    github: nelsonmestevao
-
-  - name: Nelson Estevão
-    photo: team-01.jpg
-    role: Dono Disto Tudo
-    company: Google
-    url: estevao.xyz
-    twitter: nelsonmestevao
-    github: nelsonmestevao
-
-  - name: Nelson Estevão
-    photo: team-01.jpg
-    role: Dono Disto Tudo
-    company: Google
-    url: estevao.xyz
-    twitter: nelsonmestevao
     github: nelsonmestevao
