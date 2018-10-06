@@ -9,7 +9,7 @@ calendar:
     events:
       - name: Competição de Engenharia do Minho
         tag: cem
-        time: 8h30-12h30
+        time: 8h30 - 12h30
         photo: cem.png
         description: |
           A Competição de Engenharia do Minho é uma maratona de 24 horas onde
@@ -34,7 +34,7 @@ calendar:
         location: CG - Edifício 7 - 1.01 (DI A2)
         registration:
 
-      - name: Introdução à UNIX Shell
+      - name: UNIX Shell, the best IDE
         tag: shell
         time: TBA
         speaker: Eduardo Barbosa & Nelson Estevão
@@ -63,8 +63,15 @@ calendar:
       - name: Torneio de FIFA 19
         tag: fifa
         time: 15h00 - 18h00
-        photo:
-        description: TBA
+        photo: fifa19.jpg
+        description: |
+          Para este torneio existirá uma fase de eliminatórias, realizadas em
+          3 estações com o FIFA19. O preço da inscrição será gratuita para
+          todos os participantes que sejam sócios do CeSIUM. Caso contrário
+          terá o valor de 1 euro. O prémio será atribuído ao vencedor na
+          hora.
+
+          Consulta o regulamento [aqui](assets/docs/2018-09-29_codeweek18_rules_fifa19.pdf).
         location: GamersAcademy
         registration:
 
@@ -72,7 +79,7 @@ calendar:
         tag: hackathonners
         time: TBA
         speaker: Hackathonners
-        photo:
+        photo: hackathonners.png
         description: TBA
         location: texto
         registration:

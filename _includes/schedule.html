@@ -52,7 +52,7 @@
                 </div>
                 <div id="collapse{{ event.tag }}" class="collapse" aria-labelledby="heading{{ event.tag }}" data-parent="#accordion">
                   <div class="card-body">
-                    <p>{{ event.description }}</p>
+                    <p>{{ event.description | markdownify }}</p>
                     <div class="location">
                       <span>Location:</span>
                       {{ event.location }}
