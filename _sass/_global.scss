@@ -286,10 +286,13 @@ a.back-to-top{
 	  -moz-transition: all 0.2s ease-in-out;
 	  -webkit-transition: all 0.2s ease-in-out;
 	  -o-transition: all 0.2s ease-in-out;
-	  @include icon-shadow;
+    @include icon-shadow;
+    &:hover {
+      background: $dark-red;
+    }
 	}
 	&:hover , &:focus {
-		text-decoration: none;
+    text-decoration: none;
 	}
 }
 
