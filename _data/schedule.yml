@@ -2,6 +2,9 @@
 # Schedule
 # ============================================================================ #
 
+title: Calendário
+description: Vê as atividades que temos preparadas para ti
+
 calendar:
   - name: Fim de Semana
     tag: active

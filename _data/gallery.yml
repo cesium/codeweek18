@@ -1,0 +1,28 @@
+# ============================================================================ #
+# Gallery
+# ============================================================================ #
+
+title: DI GOES RETRO
+description: |
+  Durante esta semana o Departamento de Informática entra numa máquina do
+  tempo. Os computadores são substituídos pelos seus antecessores dos anos 80
+  e 90. Aparece para relembrares as raízes da computação através de um museu
+  aberto!
+
+button:
+  text:
+  link:
+
+pictures:
+  - di_retro2016_1.jpg
+  - di_retro2016_2.jpg
+  - di_retro2016_3.jpg
+  - di_retro2016_4.jpg
+  - di_retro2016_5.jpg
+  - di_retro2017_1.jpg
+  # - di_retro2017_2.jpg
+  # - di_retro2017_3.jpg
+  # - di_retro2017_4.jpg
+  - di_retro2017_5.jpg
+  - di_retro2017_6.jpg
+  - di_retro2017_7.jpg

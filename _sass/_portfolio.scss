@@ -40,7 +40,7 @@
     	}
     }
     .gallery-box:hover .overlay-box{
-		background: rgba(233, 30, 99, 0.7);
+		background: rgba($light-red, .5);
 	  	transform: scale(1,1);
 	    transition:all 500ms ease;
 	}
