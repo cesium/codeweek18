@@ -29,7 +29,7 @@ calendar:
         tag: security
         time: TBA
         speaker: Daniel Tinoco & José Resende
-        photo:
+        photo: seguranca.png
         description:
         location: CG - Edifício 7 - 1.01 (DI A2)
         registration:
@@ -38,7 +38,7 @@ calendar:
         tag: shell
         time: TBA
         speaker: Eduardo Barbosa & Nelson Estevão
-        photo:
+        photo: unixshell.png
         description: |
         location: CG - Edifício 7 - 1.01
         registration:
@@ -47,13 +47,13 @@ calendar:
     tag: tuesday
     date: 16 de Outubro
     events:
-      - name: texto
-        tag: coisinha
-        time: texto
-        speaker: texto
-        photo: texto
+      - name: Constrói a tua própria WebExtension
+        tag: webext
+        time: 17h00 - 18h00
+        speaker: Bruno Cancelinha
+        photo: webext.png
         description:
-        location: texto
+        location: TBA
         registration:
 
   - name: Quarta-feira
@@ -63,7 +63,7 @@ calendar:
       - name: Torneio de FIFA 19
         tag: fifa
         time: 15h00 - 18h00
-        photo: fifa19.jpg
+        photo: fifa19.png
         description: |
           Para este torneio existirá uma fase de eliminatórias, realizadas em
           3 estações com o FIFA19. O preço da inscrição será gratuita para
