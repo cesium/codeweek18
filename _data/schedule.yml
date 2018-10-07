@@ -22,27 +22,27 @@ calendar:
           solução será no final apresentada a um painel multidisciplinar que
           irá distinguir equipas vencedoras.
         location: Complexo Desportivo de Azurém
-        registration:
+        registration: https://bit.ly/2POzcAZ
 
   - name: Segunda-feira
     tag: monday
     date: 15 de Outubro
     events:
-      - name: Talk de Segurança
-        tag: security
-        time: TBA
-        speaker: Daniel Tinoco & José Resende
-        photo: seguranca.png
-        description:
-        location: CG - Edifício 7 - 1.01 (DI A2)
-        registration:
-
       - name: UNIX Shell, the best IDE
         tag: shell
-        time: TBA
+        time: 16h00 - 17h00
         speaker: Eduardo Barbosa & Nelson Estevão
         photo: unixshell.png
         description: |
+        location: CG - Edifício 7 - 1.01
+        registration:
+
+      - name: Talk de Segurança
+        tag: security
+        time: 17h30 - 18h00
+        speaker: Daniel Tinoco & José Resende
+        photo: seguranca.png
+        description:
         location: CG - Edifício 7 - 1.01
         registration:
 
@@ -55,7 +55,10 @@ calendar:
         time: 17h00 - 18h00
         speaker: Bruno Cancelinha
         photo: webext.png
-        description:
+        description: |
+          O Firefox começou a suportar WebExtensions, tornando fácil portar
+          extensões para outros browsers. Vem aprender a tomar partido desta
+          nova tecnologia e constrói a tua própria extensão.
         location: TBA
         registration:
 
@@ -83,34 +86,34 @@ calendar:
         time: TBA
         speaker: Hackathonners
         photo: hackathonners.png
-        description: TBA
-        location: texto
+        description:
+        location: TBA
         registration:
 
   - name: Quinta-feira
     tag: thursday
     date: 18 de Outubro
     events:
-      - name: texto
+      - name: TBA
         tag: arduino
-        time: texto
-        speaker: texto
-        photo: texto
+        time: 17h00 - 18h00
+        speaker: Nuno Santos
+        photo:
         description:
-        location: texto
+        location: TBA
         registration:
 
   - name: Sexta-feira
     tag: friday
     date: 19 de Outubro
     events:
-      - name: texto
-        tag: text
-        time: texto
-        speaker: texto
-        photo: texto
+      - name: Conversa sobre Gems no Open-Source
+        tag: gems
+        time: 14h00 - 15h00
+        speaker: José Resende & Daniel Tinoco
+        photo:
         description:
-        location: texto
+        location: TBA
         registration:
 
   - name: Sábado

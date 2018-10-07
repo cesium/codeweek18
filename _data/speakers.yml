@@ -6,7 +6,7 @@ title: Oradores
 description:
 
 button:
-  text: Seja Orador
+  text: Ser Orador
   mail: pedagogico@cesium.di.uminho.pt
   subject: "[CodeWeek] Interesse em ser orador"
 
@@ -19,6 +19,15 @@ list:
     twitter:
     linkedin:
     github: 9thScientist
+
+  - name: Daniel Tinoco
+    photo: tinoco.jpg
+    role: Centro de Apoio ao Open Source
+    company: CeSIUM
+    url:
+    twitter:
+    linkedin:
+    github: 0urobor0s
 
   - name: Eduardo Barbosa
     photo: herulume.jpg
@@ -46,3 +55,4 @@ list:
     twitter: nelsonmestevao
     linkedin: nelsonmestevao
     github: nelsonmestevao
+

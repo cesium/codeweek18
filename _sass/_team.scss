@@ -95,8 +95,9 @@
 		    text-transform: uppercase;
 		    font-weight: 700;
 		    margin-bottom: 5px;
+        color: #212121;
 		    a{
-		    	color: #212121;
+          color: #212121;
 			    &:hover{
 			    	color: $preset;
 			    }

@@ -35,7 +35,11 @@
           </div>
 
           <div class="info-text">
-            <h3><a href="https://{{ speaker.url }}">{{ speaker.name }}</a></h3>
+            {% if speaker.url %}
+              <h3><a href="https://{{ speaker.url }}">{{ speaker.name }}</a></h3>
+            {% else %}
+              <h3>{{ speaker.name }}</h3>
+            {% endif %}
             <p>{{ speaker.role }}, {{ speaker.company }}</p>
           </div>
 
@@ -45,7 +49,7 @@
     </div>
 
     {% if site.data.speakers.button %}
-    <a href="mailto:{{ site.data.speakers.button.mail }}?subject={{ site.data.speakers.button.subject }}" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">{{ site.data.speakers.button.text }}</a>
+    <a href="mailto:{{ site.data.speakers.button.mail }}?subject={{ site.data.speakers.button.subject }}" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="0.4s">{{ site.data.speakers.button.text }}</a>
     {% endif %}
 
   </div>
