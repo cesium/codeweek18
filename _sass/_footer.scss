@@ -17,7 +17,7 @@
 		color: #fff;
 		line-height: 20px;
 		margin: 0;
-		padding-left: 20px;
+		padding-right: 50px;
 	}
 	ul{
 		li{
@@ -115,7 +115,7 @@
 		}
 	}
 	.post-content{
-	    margin-left: 85px;
+	  //  margin-left: 85px;
 		margin-bottom: 0;
 		.post-title{
 			margin-bottom: 5px;
@@ -132,7 +132,7 @@
 		.meta{
 			color: #999;
 			span{
-				text-transform: uppercase;
+				text-transform: none;
 			    font-size: 12px;
 			    line-height: 18px;
 			    margin-bottom: 10px;

@@ -8,23 +8,23 @@
 - name: About
   link: "#about"
 
-- name: Schedules
+- name: Calendário
   link: "#schedules"
 
-- name: Speakers
+- name: Oradores
   link: "#team"
 
 - name: Museu
   link: "#gallery"
 
-- name: FAQ
-  link: "#faq"
-
-- name: Sponsors
+- name: Parceiros
   link: "#sponsors"
 
 - name: Torneio
   link: "#pricing"
 
-- name: Contact
+- name: CoderDojo
+  link: "#coderdojo"
+
+- name: Contacto
   link: "#google-map-area"

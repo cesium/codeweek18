@@ -3,7 +3,7 @@ locale          : "pt-PT"
 title           : "CodeWeek"
 title_separator : "•"
 description     : "Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis nostrud ncididunt."
-logo            : logo.png
+logo            : codeweek-logo-lightred.png
 url             : "https://codeweek.cesium.di.uminho.pt"
 baseurl         :
 
@@ -14,8 +14,8 @@ analytics:
 email        : "cesium@di.uminho.pt"
 facebook     : "cesiuminho"
 github       : "cesium"
-gitlab       : 
-google_plus  : 
+gitlab       :
+google_plus  :
 instagram    : "cesiuminho"
 linkedin     :
 twitter      : "cesiuminho"

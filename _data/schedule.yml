@@ -94,6 +94,15 @@ calendar:
     tag: thursday
     date: 18 de Outubro
     events:
+      - name: Conversa sobre Gems no Open-Source
+        tag: gems
+        time: 14h00 - 15h00
+        speaker: José Resende & Daniel Tinoco
+        photo:
+        description:
+        location: TBA
+        registration:
+
       - name: TBA
         tag: arduino
         time: 17h00 - 18h00
@@ -103,14 +112,10 @@ calendar:
         location: TBA
         registration:
 
-  - name: Sexta-feira
-    tag: friday
-    date: 19 de Outubro
-    events:
-      - name: Conversa sobre Gems no Open-Source
-        tag: gems
+      - name: Geek Night
+        tag: geek
         time: 14h00 - 15h00
-        speaker: José Resende & Daniel Tinoco
+        speaker: TBA
         photo:
         description:
         location: TBA
