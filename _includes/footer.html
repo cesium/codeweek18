@@ -4,7 +4,7 @@
 
       <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
         <h3><img src="assets/img/{{ site.logo }}" alt="{{ site.title }}"></h3>
-        <p>{{ site.description }}</p>
+        {{ site.description | markdownify }}
       </div>
 
       <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
