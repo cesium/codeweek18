@@ -5,8 +5,8 @@
 - name: Home
   link: "#header-wrap"
 
-- name: About
-  link: "#about"
+# - name: Sobre
+#   link: "#about"
 
 - name: Calendário
   link: "#schedules"
@@ -17,8 +17,8 @@
 - name: Museu
   link: "#gallery"
 
-- name: Parceiros
-  link: "#sponsors"
+# - name: Parceiros
+#   link: "#sponsors"
 
 - name: Torneio
   link: "#pricing"
@@ -27,4 +27,4 @@
   link: "#coderdojo"
 
 - name: Contacto
-  link: "#google-map-area"
+  link: "#contact-map"

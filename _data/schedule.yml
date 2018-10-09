@@ -98,7 +98,7 @@ calendar:
         tag: gems
         time: 14h00 - 15h00
         speaker: José Resende & Daniel Tinoco
-        photo:
+        photo: gems.png
         description:
         location: TBA
         registration:
@@ -107,7 +107,7 @@ calendar:
         tag: arduino
         time: 17h00 - 18h00
         speaker: Nuno Santos
-        photo:
+        photo: arduino.png
         description:
         location: TBA
         registration:
@@ -116,7 +116,7 @@ calendar:
         tag: geek
         time: 14h00 - 15h00
         speaker: TBA
-        photo:
+        photo: geeknight.png
         description:
         location: TBA
         registration:
