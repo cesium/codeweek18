@@ -34,7 +34,7 @@ calendar:
         speaker: Eduardo Barbosa & Nelson Estevão
         photo: unixshell.png
         description: |
-        location: CG - Edifício 7 - 1.01
+        location: Campus de Gualtar, Edifício 7 - 1.01
         registration:
 
       - name: Talk de Segurança
@@ -43,7 +43,7 @@ calendar:
         speaker: Daniel Tinoco & José Resende
         photo: seguranca.png
         description:
-        location: CG - Edifício 7 - 1.01
+        location: Campus de Gualtar, Edifício 7 - 1.01
         registration:
 
   - name: Terça-feira
@@ -59,7 +59,7 @@ calendar:
           O Firefox começou a suportar WebExtensions, tornando fácil portar
           extensões para outros browsers. Vem aprender a tomar partido desta
           nova tecnologia e constrói a tua própria extensão.
-        location: TBA
+        location: Campus de Gualtar, Edifício 7 - 1.01
         registration:
 
   - name: Quarta-feira
@@ -100,7 +100,7 @@ calendar:
         speaker: José Resende & Daniel Tinoco
         photo: gems.png
         description:
-        location: TBA
+        location: Campus de Gualtar, Edifício 7 - 1.01
         registration:
 
       - name: TBA
@@ -109,7 +109,7 @@ calendar:
         speaker: Nuno Santos
         photo: arduino.png
         description:
-        location: TBA
+        location: Campus de Gualtar, Edifício 7 - 1.01
         registration:
 
       - name: Geek Night
@@ -118,7 +118,7 @@ calendar:
         speaker: TBA
         photo: geeknight.png
         description:
-        location: TBA
+        location: Campus de Gualtar, Edifício 7 - 1.01
         registration:
 
   - name: Sábado
