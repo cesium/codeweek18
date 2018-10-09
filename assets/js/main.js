@@ -22,10 +22,10 @@
        ========================================================================== */
      jQuery('#clock').countdown('2018/10/13',function(event){
       var $this=jQuery(this).html(event.strftime(''
-      +'<div class="time-entry days"><span>%-D</span> Days</div> '
-      +'<div class="time-entry hours"><span>%H</span> Hours</div> '
-      +'<div class="time-entry minutes"><span>%M</span> Minutes</div> '
-      +'<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
+      +'<div class="time-entry days"><span>%-D</span> Dias</div> '
+      +'<div class="time-entry hours"><span>%H</span> Horas</div> '
+      +'<div class="time-entry minutes"><span>%M</span> Minutos</div> '
+      +'<div class="time-entry seconds"><span>%S</span> Segundos</div> '));
     });
 
     /* slicknav mobile menu active  */
