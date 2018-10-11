@@ -34,17 +34,25 @@ calendar:
         speaker: Eduardo Barbosa & Nelson Estevão
         photo: unixshell.png
         description: |
+          És novo nos sistemas Unix e ainda não consegues trabalhar com a
+          shell, pior, nem sequer sabes o que é isso? Não te preocupes, o
+          CeSIUM encarrega-se de te ensinar as melhores ferramentas para tornar
+          o teu trabalho mais produtivo e cómodo. Participa e liberta todo o
+          poder da tua máquina.
         location: Campus de Gualtar, Edifício 7 - 1.01
-        registration:
+        registration: http://www.cesium.di.uminho.pt/activities/35
 
       - name: Talk de Segurança
         tag: security
         time: 17h30 - 18h00
         speaker: Daniel Tinoco & José Resende
         photo: seguranca.png
-        description:
+        description: |
+          Que tal uma sessão sobre cibersegurança? Junta-te a nós para
+          aprenderes os básicos de sistemas de segurança e como os hackers
+          exploram as vulnerabilidades.
         location: Campus de Gualtar, Edifício 7 - 1.01
-        registration:
+        registration: http://www.cesium.di.uminho.pt/activities/36
 
   - name: Terça-feira
     tag: tuesday
@@ -60,7 +68,7 @@ calendar:
           extensões para outros browsers. Vem aprender a tomar partido desta
           nova tecnologia e constrói a tua própria extensão.
         location: Campus de Gualtar, Edifício 7 - 1.01
-        registration:
+        registration: http://www.cesium.di.uminho.pt/activities/37
 
   - name: Quarta-feira
     tag: wednesday
@@ -71,15 +79,14 @@ calendar:
         time: 15h00 - 18h00
         photo: fifa19.png
         description: |
-          Para este torneio existirá uma fase de eliminatórias, realizadas em
-          3 estações com o FIFA19. O preço da inscrição será gratuita para
-          todos os participantes que sejam sócios do CeSIUM. Caso contrário
-          terá o valor de 1 euro. O prémio será atribuído ao vencedor na
-          hora.
+          Junta-te a nós para um torneio de FIFA 19, onde exitirão várias
+          estações e o vencedor, além de receber uma T-Shirt do CeSIUM, leva
+          para casa uma garrafa de Jeropiga. Durante o torneio, existirá uma
+          Happy Hour com finos a 80 centimos para sócios.
 
           Consulta o regulamento [aqui](assets/docs/2018-09-29_codeweek18_rules_fifa19.pdf).
-        location: GamersAcademy
-        registration:
+        location: Gamers Academy
+        registration: http://www.cesium.di.uminho.pt/activities/38
 
       - name: Celebração do Open Source
         tag: hackathonners
@@ -99,18 +106,28 @@ calendar:
         time: 14h00 - 15h00
         speaker: José Resende & Daniel Tinoco
         photo: gems.png
-        description:
+        description: |
+          O CeSIUM é um membro ativo da comunidade Open-Source tanto a
+          contribuir para projectos como criando os seus próprios. Aproveita
+          para conheceres os mais recentes projectos open-source em
+          desenvolvimento e assim saberes onde a tua próxima contribuição devia
+          ser.
         location: Campus de Gualtar, Edifício 7 - 1.01
-        registration:
+        registration: http://www.cesium.di.uminho.pt/activities/39
 
-      - name: TBA
+      - name: A importância do tempo de resposta em sistemas interactivos
         tag: arduino
         time: 17h00 - 18h00
         speaker: Nuno Santos
         photo: arduino.png
-        description:
+        description: |
+          Em sistemas interativos o tempo de resposta representa uma componente
+          da experiência. Nesta sessão, este tema será abordado de uma forma
+          teórica com vários exemplos do dia a dia bem como de forma prática
+          recorrendo a um Arduino e um sistema de sintetizador musical em tempo
+          real.
         location: Campus de Gualtar, Edifício 7 - 1.01
-        registration:
+        registration: http://www.cesium.di.uminho.pt/activities/40
 
       - name: Geek Night
         tag: geek
