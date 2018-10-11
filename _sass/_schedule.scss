@@ -58,7 +58,8 @@
 			box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
 		}
 		.card{
-			border: none;
+      border: none;
+      margin-bottom: 20px;
 		}
 	}
 	.show .card-body{
@@ -66,12 +67,13 @@
 	}
 	.collapsed{
 
-	}
+  }
+
 	.card-header{
 		border: none;
 		cursor: pointer;
 		background: #fff;
-		border-bottom: 1px solid #ddd;
+		// border-bottom: 1px solid #ddd;
 		.images-box{
 			width: 70px;
 		    height: 70px;
