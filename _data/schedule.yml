@@ -101,7 +101,7 @@ calendar:
     tag: thursday
     date: 18 de Outubro
     events:
-      - name: Conversa sobre Gems no Open-Source
+      - name: Gems no Open-Source
         tag: gems
         time: 14h00 - 15h00
         speaker: José Resende & Daniel Tinoco
