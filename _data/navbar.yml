@@ -17,8 +17,6 @@
 - name: Museu
   link: "#gallery"
 
-# - name: Parceiros
-#   link: "#sponsors"
 
 - name: Torneio
   link: "#pricing"
@@ -26,5 +24,8 @@
 - name: CoderDojo
   link: "#coderdojo"
 
-- name: Contacto
-  link: "#contact-map"
+- name: Parceiros
+  link: "#sponsors"
+
+# - name: Contacto
+#   link: "#contact-map"

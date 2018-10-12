@@ -2,27 +2,23 @@
 # Sponsors
 # ============================================================================ #
 
-title: Sponsors
-description: texto texto texto
+title: Parceiros
+description:
 
 button:
-  text: Become a sponsor
+  text: Ser Parceiro
   mail: pedagogico@cesium.di.uminho.pt
   subject: "[CodeWeek] Interesse em patrocínio"
 
 list:
-  - company: Google
-    logo: logo-01.png
-    url: estevao.xyz
+  - company: Escola de Engenharia
+    logo: eeng.png
+    url: eng.uminho.pt
 
-  - company: Google
-    logo: logo-02.png
-    url: estevao.xyz
+  - company: Hackathonners
+    logo: hackathonners.png
+    url: hackathonners.org
 
-  - company: Google
-    logo: logo-04.png
-    url: estevao.xyz
-
-  - company: Google
-    logo: logo-03.png
-    url: estevao.xyz
+  - company: Instituto Português do Desporto e da Juventude
+    logo: ipdj.png
+    url: www.ipdj.pt
