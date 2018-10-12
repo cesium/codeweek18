@@ -88,14 +88,14 @@ calendar:
         location: Gamers Academy
         registration: http://www.cesium.di.uminho.pt/activities/38
 
-      - name: Celebração do Open Source
+      - name: Meetup Hacktoberfest
         tag: hackathonners
-        time: TBA
+        time: 18h00 - 21h00
         speaker: Hackathonners
         photo: hackathonners.png
         description:
-        location: TBA
-        registration:
+        location: Sala de Conferências, gnration
+        registration: http://www.cesium.di.uminho.pt/activities/42
 
   - name: Quinta-feira
     tag: thursday
@@ -135,7 +135,7 @@ calendar:
         speaker: TBA
         photo: geeknight.png
         description:
-        location:
+        location: Bar Juno
         registration:
 
   - name: Sábado
