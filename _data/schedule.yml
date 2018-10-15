@@ -7,7 +7,7 @@ description: Vê as atividades que temos preparadas para ti
 
 calendar:
   - name: Fim de Semana
-    tag: active
+    tag: weekend
     date: 13 e 14 de Outubro
     events:
       - name: Competição de Engenharia do Minho
@@ -55,7 +55,7 @@ calendar:
         registration: http://www.cesium.di.uminho.pt/activities/36
 
   - name: Terça-feira
-    tag: tuesday
+    tag: active
     date: 16 de Outubro
     events:
       - name: Constrói a tua própria WebExtension
