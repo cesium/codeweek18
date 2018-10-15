@@ -17,7 +17,7 @@
           <ul class="nav nav-tabs" id="myTab" role="tablist">
           {% for day in site.data.schedule.calendar %}
             <li class="nav-item">
-              <a class="nav-link" id="{{ day.tag }}-tab" data-toggle="tab" href="#{{ day.tag }}" role="tab" aria-controls="{{ day.tag }}">
+              <a class="nav-link {{ day.tag }}" id="{{ day.tag }}-tab" data-toggle="tab" href="#{{ day.tag }}" role="tab" aria-controls="{{ day.tag }}">
                 <div class="item-text">
                   <h4>{{ day.name }}</h4>
                   <h5>{{ day.date }}</h5>
