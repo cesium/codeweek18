@@ -8,7 +8,7 @@ description: Vê as atividades que temos preparadas para ti
 calendar:
   - name: Fim de Semana
     tag: weekend
-    date: 13 e 14 de Outubro
+    date: 13 e 14 de outubro
     events:
       - name: Competição de Engenharia do Minho
         tag: cem
@@ -26,7 +26,7 @@ calendar:
 
   - name: Segunda-feira
     tag: monday
-    date: 15 de Outubro
+    date: 15 de outubro
     events:
       - name: UNIX Shell, the best IDE
         tag: shell
@@ -56,7 +56,7 @@ calendar:
 
   - name: Terça-feira
     tag: tuesday
-    date: 16 de Outubro
+    date: 16 de outubro
     events:
       - name: Constrói a tua própria WebExtension
         tag: webext
@@ -72,7 +72,7 @@ calendar:
 
   - name: Quarta-feira
     tag: active
-    date: 17 de Outubro
+    date: 17 de outubro
     events:
       - name: Torneio de FIFA 19
         tag: fifa
@@ -99,7 +99,7 @@ calendar:
 
   - name: Quinta-feira
     tag: thursday
-    date: 18 de Outubro
+    date: 18 de outubro
     events:
       - name: Pérolas no Open-Source
         tag: gems
@@ -140,7 +140,7 @@ calendar:
 
   - name: Sábado
     tag: saturday
-    date: 20 de Outubro
+    date: 20 de outubro
     events:
       - name: CoderDojo Braga
         tag: coderdojo
