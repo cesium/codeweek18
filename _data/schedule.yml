@@ -55,7 +55,7 @@ calendar:
         registration: http://www.cesium.di.uminho.pt/activities/36
 
   - name: Terça-feira
-    tag: active
+    tag: tuesday
     date: 16 de Outubro
     events:
       - name: Constrói a tua própria WebExtension
@@ -71,7 +71,7 @@ calendar:
         registration: http://www.cesium.di.uminho.pt/activities/37
 
   - name: Quarta-feira
-    tag: wednesday
+    tag: active
     date: 17 de Outubro
     events:
       - name: Torneio de FIFA 19
