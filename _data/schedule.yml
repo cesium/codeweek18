@@ -71,7 +71,7 @@ calendar:
         registration: http://www.cesium.di.uminho.pt/activities/37
 
   - name: Quarta-feira
-    tag: active
+    tag: wednesday
     date: 17 de outubro
     events:
       - name: Torneio de FIFA 19
@@ -98,7 +98,7 @@ calendar:
         registration: http://www.cesium.di.uminho.pt/activities/42
 
   - name: Quinta-feira
-    tag: thursday
+    tag: active
     date: 18 de outubro
     events:
       - name: Pérolas no Open-Source
