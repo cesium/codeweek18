@@ -132,9 +132,11 @@ calendar:
       - name: Geek Night
         tag: geek
         time: 21h00 - 1h00
-        speaker: TBA
+        speaker:
         photo: geeknight.png
-        description:
+        description: |
+          Talks pertinentes a informática, amostragem de curiosidades relativas
+          a engenharia e as ciências da computação.
         location: Bar Juno
         registration:
 
